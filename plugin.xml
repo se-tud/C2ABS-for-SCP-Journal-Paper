@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+  <extension
+	  point="org.eclipse.ui.views">
+    <view
+          allowMultiple="false"
+          category="org.eclipse.cdt.ui.views"
+          class="de.tud.se.c2abs.C2ABSView"
+          icon="icons/sample.gif"
+          id="de.tud.se.c2abs.C2ABS"
+          name="C2ABS">
+    </view>
+  </extension>
+</plugin>
